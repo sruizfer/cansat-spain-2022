@@ -1,7 +1,3 @@
-//PROGRAMACION DEL CANSAT ARGONAUTEX2022
-//en la linea 687 del archivo lora.cpp hay que poner el mismo numero en _implicitheadermode en el sender y receiver
-//https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
-
 //Configuarcion de pines de la sd
 #if !defined(ARDUINO_ARCH_RP2040)
 error For RP2040 only
@@ -255,7 +251,6 @@ String datos_camara() {
     for (int y = 0; y < 8; y++) {
       valores_camara += camara.pixelMatrix[y][x];
       valores_camara += ",";
-
     }
   }
   return String(valores_camara);
@@ -279,7 +274,6 @@ void enviar_lora(String cadena) {
   LoRa.endPacket(true);
 
 }
-
 
 void LoRa_txMode() {
   LoRa.idle();
