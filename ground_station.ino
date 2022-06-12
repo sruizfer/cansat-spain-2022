@@ -1,5 +1,3 @@
-//Programacion estacion principal
-
 //Configuarcion de pines de la sd
 #if !defined(ARDUINO_ARCH_RP2040)
 error For RP2040 only
