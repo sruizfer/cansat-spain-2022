@@ -1,1 +1,3 @@
 # cansat-spain-2022
+CanSat is an ESA (European Space Agency) initiative for secondary students wich consists on the simulation of a real satellite mission.
+Each team builds its own satellite, which must fix inside the dimensions of a normal soda can. The device must meassure temperature, air pressure and barometric altitude every second, and send it by rf to a ground station. Furthermore, each team develops an original secondary mission, and include in their CanSats the necessary gadgets for it. Finally, the devices are thrown with rockets which reach an altitude of 1km, and the descent rate is controlled by a parachute which is included in each satellite.
