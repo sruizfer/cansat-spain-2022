@@ -6,5 +6,8 @@ Each team builds its own satellite, which must fix inside the dimensions of a no
 ## Our project
 Our team decided to build a CanSat to monitor and prevent volcanic eruptions. For this, we studied different parameters, such as: the air quality (to prevent the population from suffering lung injuries), due to high concentration of carbon dioxide (meassured with an Adafruit CSS811) and PM10 particles (meassured with an optic sensor). Also, volcanic tremor is detected wth an accelerometer, a GPS helps to find and locate our satellite, in order to know where are the values being taken, and the temperature of the lava and the terrain is meassured with a thermal camera.<br />
 Last but not least, we developed our own sensor to calculate the magnetic field which forms in the plume, due to the friction of particles, which indicates if the amount of ash which is sent to the atmosphere increases or decreases. It consists of a cooper coil on which is inducted an electric current by the relative movement through the field, which is amplified by two darglinton transistors, and detected by an analog pin on aur microprocessor.<br />
+![image](https://user-images.githubusercontent.com/107350915/173815139-166d0bd3-ae00-41b5-958b-053434725f94.png)
+![image](https://user-images.githubusercontent.com/107350915/173815234-cb01ef3c-6fea-44eb-8256-d0ee6ac67a96.png)
+
 ## Files
-In this repository you will find two files named [satellite.ino](satellite.ino) and [grond_station.ino](ground_station.ino). The first is the main script which runs on the CanSat, and the last is the one of the ground station.
+In this repository you will find two files named [satellite.ino](satellite.ino) and [ground_station.ino](ground_station.ino). The first is the main script which runs on the CanSat, and the last is the one of the ground station.
