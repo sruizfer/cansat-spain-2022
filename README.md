@@ -11,4 +11,4 @@ Last but not least, we developed our own sensor to calculate the magnetic field 
 ## Files
 In this repository you will find two files named [satellite.ino](satellite.ino) and [ground_station.ino](ground_station.ino). The first is the main script which runs on the CanSat, and the last is the one of the ground station.
 ## Schematics
-You can find both schematics in the [schematics.png](following picture): cansat (below) and ground station (above), where all components are included.
+You can find both schematics in the [following picture](schematics.png): cansat (below) and ground station (above), where all components are included.
